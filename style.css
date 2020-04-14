@@ -1,0 +1,98 @@
+div{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1000px;
+}
+img{
+  width: 1300px;
+  position: relative;
+}
+blockquote{
+  width: 800px;
+  height: 170px;
+  background: #444444;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 0px;
+  position: relative;
+}
+
+blockquote::before {
+  content: '“';  
+  font-size: 80px;
+   position: absolute;
+  top: -9px;
+  left: 10px;
+}
+
+p{
+  font-family: 'Josefin Sans';
+  color: #222222;
+}
+
+ul{
+  font-family: 'Josefin Sans';
+  font-style: Thin;
+  color: #222222;
+  margin-bottom: 40px;
+}
+h5{
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-size: 15px;
+  margin: 0;
+
+}
+h4{
+ font-family: 'Merriweather Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+h3{
+ font-family: 'Merriweather Sans', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+hr{
+ height: 2px;
+  background: black;
+}
+
+main{
+  display: block;
+  flex-direction: column;
+  width: 650px;
+  margin-left: 310px;
+}
+
+.header{
+  position: absolute;
+  left: 320px;
+  top: 260px;
+}
+
+h1, H2{
+  margin: 0;
+  padding: 0;
+  color: #222222;
+}
+
+H1{
+  font-size: 75px;
+}
+
+H2{
+  font-size: 35px;
+}
